@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AF50BF285200F900DE7B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50BE285200F900DE7B0D /* AppDelegate.swift */; };
+		04AF50C1285200F900DE7B0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50C0285200F900DE7B0D /* SceneDelegate.swift */; };
+		04AF50C3285200F900DE7B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50C2285200F900DE7B0D /* ViewController.swift */; };
+		04AF50C6285200F900DE7B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF50C4285200F900DE7B0D /* Main.storyboard */; };
+		04AF50C9285200F900DE7B0D /* MovikaTap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50C7285200F900DE7B0D /* MovikaTap.xcdatamodeld */; };
+		04AF50CB285200FC00DE7B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AF50CA285200FC00DE7B0D /* Assets.xcassets */; };
+		04AF50CE285200FC00DE7B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF50CC285200FC00DE7B0D /* LaunchScreen.storyboard */; };
+		04AF50D9285200FD00DE7B0D /* MovikaTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50D8285200FD00DE7B0D /* MovikaTapTests.swift */; };
+		04AF50E3285200FD00DE7B0D /* MovikaTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50E2285200FD00DE7B0D /* MovikaTapUITests.swift */; };
+		04AF50E5285200FD00DE7B0D /* MovikaTapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50E4285200FD00DE7B0D /* MovikaTapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AF50D5285200FD00DE7B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AF50B3285200F900DE7B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AF50BA285200F900DE7B0D;
+			remoteInfo = MovikaTap;
+		};
+		04AF50DF285200FD00DE7B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AF50B3285200F900DE7B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AF50BA285200F900DE7B0D;
+			remoteInfo = MovikaTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AF50BB285200F900DE7B0D /* MovikaTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovikaTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AF50BE285200F900DE7B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AF50C0285200F900DE7B0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04AF50C2285200F900DE7B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04AF50C5285200F900DE7B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AF50C8285200F900DE7B0D /* MovikaTap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovikaTap.xcdatamodel; sourceTree = "<group>"; };
+		04AF50CA285200FC00DE7B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AF50CD285200FC00DE7B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AF50CF285200FC00DE7B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AF50D4285200FD00DE7B0D /* MovikaTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovikaTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AF50D8285200FD00DE7B0D /* MovikaTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovikaTapTests.swift; sourceTree = "<group>"; };
+		04AF50DE285200FD00DE7B0D /* MovikaTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovikaTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AF50E2285200FD00DE7B0D /* MovikaTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovikaTapUITests.swift; sourceTree = "<group>"; };
+		04AF50E4285200FD00DE7B0D /* MovikaTapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovikaTapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AF50B8285200F900DE7B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF50D1285200FD00DE7B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF50DB285200FD00DE7B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AF50B2285200F900DE7B0D = {
+			isa = PBXGroup;
+			children = (
+				04AF50BD285200F900DE7B0D /* MovikaTap */,
+				04AF50D7285200FD00DE7B0D /* MovikaTapTests */,
+				04AF50E1285200FD00DE7B0D /* MovikaTapUITests */,
+				04AF50BC285200F900DE7B0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AF50BC285200F900DE7B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AF50BB285200F900DE7B0D /* MovikaTap.app */,
+				04AF50D4285200FD00DE7B0D /* MovikaTapTests.xctest */,
+				04AF50DE285200FD00DE7B0D /* MovikaTapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AF50BD285200F900DE7B0D /* MovikaTap */ = {
+			isa = PBXGroup;
+			children = (
+				04AF50BE285200F900DE7B0D /* AppDelegate.swift */,
+				04AF50C0285200F900DE7B0D /* SceneDelegate.swift */,
+				04AF50C2285200F900DE7B0D /* ViewController.swift */,
+				04AF50C4285200F900DE7B0D /* Main.storyboard */,
+				04AF50CA285200FC00DE7B0D /* Assets.xcassets */,
+				04AF50CC285200FC00DE7B0D /* LaunchScreen.storyboard */,
+				04AF50CF285200FC00DE7B0D /* Info.plist */,
+				04AF50C7285200F900DE7B0D /* MovikaTap.xcdatamodeld */,
+			);
+			path = MovikaTap;
+			sourceTree = "<group>";
+		};
+		04AF50D7285200FD00DE7B0D /* MovikaTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AF50D8285200FD00DE7B0D /* MovikaTapTests.swift */,
+			);
+			path = MovikaTapTests;
+			sourceTree = "<group>";
+		};
+		04AF50E1285200FD00DE7B0D /* MovikaTapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AF50E2285200FD00DE7B0D /* MovikaTapUITests.swift */,
+				04AF50E4285200FD00DE7B0D /* MovikaTapUITestsLaunchTests.swift */,
+			);
+			path = MovikaTapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AF50BA285200F900DE7B0D /* MovikaTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AF50E8285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTap" */;
+			buildPhases = (
+				04AF50B7285200F900DE7B0D /* Sources */,
+				04AF50B8285200F900DE7B0D /* Frameworks */,
+				04AF50B9285200F900DE7B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovikaTap;
+			productName = MovikaTap;
+			productReference = 04AF50BB285200F900DE7B0D /* MovikaTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AF50D3285200FD00DE7B0D /* MovikaTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AF50EB285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTapTests" */;
+			buildPhases = (
+				04AF50D0285200FD00DE7B0D /* Sources */,
+				04AF50D1285200FD00DE7B0D /* Frameworks */,
+				04AF50D2285200FD00DE7B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AF50D6285200FD00DE7B0D /* PBXTargetDependency */,
+			);
+			name = MovikaTapTests;
+			productName = MovikaTapTests;
+			productReference = 04AF50D4285200FD00DE7B0D /* MovikaTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AF50DD285200FD00DE7B0D /* MovikaTapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AF50EE285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTapUITests" */;
+			buildPhases = (
+				04AF50DA285200FD00DE7B0D /* Sources */,
+				04AF50DB285200FD00DE7B0D /* Frameworks */,
+				04AF50DC285200FD00DE7B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AF50E0285200FD00DE7B0D /* PBXTargetDependency */,
+			);
+			name = MovikaTapUITests;
+			productName = MovikaTapUITests;
+			productReference = 04AF50DE285200FD00DE7B0D /* MovikaTapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AF50B3285200F900DE7B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					04AF50BA285200F900DE7B0D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					04AF50D3285200FD00DE7B0D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 04AF50BA285200F900DE7B0D;
+					};
+					04AF50DD285200FD00DE7B0D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 04AF50BA285200F900DE7B0D;
+					};
+				};
+			};
+			buildConfigurationList = 04AF50B6285200F900DE7B0D /* Build configuration list for PBXProject "MovikaTap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AF50B2285200F900DE7B0D;
+			productRefGroup = 04AF50BC285200F900DE7B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AF50BA285200F900DE7B0D /* MovikaTap */,
+				04AF50D3285200FD00DE7B0D /* MovikaTapTests */,
+				04AF50DD285200FD00DE7B0D /* MovikaTapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AF50B9285200F900DE7B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF50CE285200FC00DE7B0D /* LaunchScreen.storyboard in Resources */,
+				04AF50CB285200FC00DE7B0D /* Assets.xcassets in Resources */,
+				04AF50C6285200F900DE7B0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF50D2285200FD00DE7B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF50DC285200FD00DE7B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AF50B7285200F900DE7B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF50C3285200F900DE7B0D /* ViewController.swift in Sources */,
+				04AF50BF285200F900DE7B0D /* AppDelegate.swift in Sources */,
+				04AF50C9285200F900DE7B0D /* MovikaTap.xcdatamodeld in Sources */,
+				04AF50C1285200F900DE7B0D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF50D0285200FD00DE7B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF50D9285200FD00DE7B0D /* MovikaTapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF50DA285200FD00DE7B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF50E3285200FD00DE7B0D /* MovikaTapUITests.swift in Sources */,
+				04AF50E5285200FD00DE7B0D /* MovikaTapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AF50D6285200FD00DE7B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AF50BA285200F900DE7B0D /* MovikaTap */;
+			targetProxy = 04AF50D5285200FD00DE7B0D /* PBXContainerItemProxy */;
+		};
+		04AF50E0285200FD00DE7B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AF50BA285200F900DE7B0D /* MovikaTap */;
+			targetProxy = 04AF50DF285200FD00DE7B0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AF50C4285200F900DE7B0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AF50C5285200F900DE7B0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AF50CC285200FC00DE7B0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AF50CD285200FC00DE7B0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AF50E6285200FD00DE7B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AF50E7285200FD00DE7B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AF50E9285200FD00DE7B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7944299YL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovikaTap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vigvamcev-media.MovikaTap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AF50EA285200FD00DE7B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7944299YL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovikaTap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vigvamcev-media.MovikaTap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04AF50EC285200FD00DE7B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7944299YL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vigvamcev-media.MovikaTapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovikaTap.app/MovikaTap";
+			};
+			name = Debug;
+		};
+		04AF50ED285200FD00DE7B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7944299YL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vigvamcev-media.MovikaTapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovikaTap.app/MovikaTap";
+			};
+			name = Release;
+		};
+		04AF50EF285200FD00DE7B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7944299YL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vigvamcev-media.MovikaTapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovikaTap;
+			};
+			name = Debug;
+		};
+		04AF50F0285200FD00DE7B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7944299YL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vigvamcev-media.MovikaTapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovikaTap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AF50B6285200F900DE7B0D /* Build configuration list for PBXProject "MovikaTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF50E6285200FD00DE7B0D /* Debug */,
+				04AF50E7285200FD00DE7B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AF50E8285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF50E9285200FD00DE7B0D /* Debug */,
+				04AF50EA285200FD00DE7B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AF50EB285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF50EC285200FD00DE7B0D /* Debug */,
+				04AF50ED285200FD00DE7B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AF50EE285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF50EF285200FD00DE7B0D /* Debug */,
+				04AF50F0285200FD00DE7B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04AF50C7285200F900DE7B0D /* MovikaTap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04AF50C8285200F900DE7B0D /* MovikaTap.xcdatamodel */,
+			);
+			currentVersion = 04AF50C8285200F900DE7B0D /* MovikaTap.xcdatamodel */;
+			path = MovikaTap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04AF50B3285200F900DE7B0D /* Project object */;
+}

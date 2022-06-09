@@ -9,14 +9,22 @@
 /* Begin PBXBuildFile section */
 		04AF50BF285200F900DE7B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50BE285200F900DE7B0D /* AppDelegate.swift */; };
 		04AF50C1285200F900DE7B0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50C0285200F900DE7B0D /* SceneDelegate.swift */; };
-		04AF50C3285200F900DE7B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50C2285200F900DE7B0D /* ViewController.swift */; };
-		04AF50C6285200F900DE7B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF50C4285200F900DE7B0D /* Main.storyboard */; };
 		04AF50C9285200F900DE7B0D /* MovikaTap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50C7285200F900DE7B0D /* MovikaTap.xcdatamodeld */; };
 		04AF50CB285200FC00DE7B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AF50CA285200FC00DE7B0D /* Assets.xcassets */; };
 		04AF50CE285200FC00DE7B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF50CC285200FC00DE7B0D /* LaunchScreen.storyboard */; };
 		04AF50D9285200FD00DE7B0D /* MovikaTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50D8285200FD00DE7B0D /* MovikaTapTests.swift */; };
 		04AF50E3285200FD00DE7B0D /* MovikaTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50E2285200FD00DE7B0D /* MovikaTapUITests.swift */; };
 		04AF50E5285200FD00DE7B0D /* MovikaTapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF50E4285200FD00DE7B0D /* MovikaTapUITestsLaunchTests.swift */; };
+		04CE9EA528520BBF00A15A2B /* InteractiveModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9EA428520BBF00A15A2B /* InteractiveModuleBuilder.swift */; };
+		04CE9EA728520BED00A15A2B /* InteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9EA628520BED00A15A2B /* InteractiveViewController.swift */; };
+		04CE9EA928520CBE00A15A2B /* InteractivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9EA828520CBE00A15A2B /* InteractivePresenter.swift */; };
+		04CE9EAB28520CD300A15A2B /* InteractiveModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9EAA28520CD300A15A2B /* InteractiveModuleProtocols.swift */; };
+		04CE9EAE285218B000A15A2B /* InteractiveVideoBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9EAD285218B000A15A2B /* InteractiveVideoBlock.swift */; };
+		04CE9EB028522C5A00A15A2B /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9EAF28522C5A00A15A2B /* MockService.swift */; };
+		04CE9EB22852849F00A15A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE9EB12852849F00A15A2B /* Main.storyboard */; };
+		2AB9428FD923C832051CC0F5 /* Pods_MovikaTap_MovikaTapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10283E802E48823B6AE01A50 /* Pods_MovikaTap_MovikaTapUITests.framework */; };
+		465E375B1BF795F88FBACA8D /* Pods_MovikaTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67F7EFF177219BCF4F4A4 /* Pods_MovikaTap.framework */; };
+		600F34D70AA4E38915137DAB /* Pods_MovikaTapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61C838656FA9C74A54F6999 /* Pods_MovikaTapTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0177E3D427A632946D163C35 /* Pods-MovikaTap-MovikaTapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTap-MovikaTapUITests.release.xcconfig"; path = "Target Support Files/Pods-MovikaTap-MovikaTapUITests/Pods-MovikaTap-MovikaTapUITests.release.xcconfig"; sourceTree = "<group>"; };
 		04AF50BB285200F900DE7B0D /* MovikaTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovikaTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AF50BE285200F900DE7B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AF50C0285200F900DE7B0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04AF50C2285200F900DE7B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04AF50C5285200F900DE7B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AF50C8285200F900DE7B0D /* MovikaTap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovikaTap.xcdatamodel; sourceTree = "<group>"; };
 		04AF50CA285200FC00DE7B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AF50CD285200FC00DE7B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,21 @@
 		04AF50DE285200FD00DE7B0D /* MovikaTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovikaTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AF50E2285200FD00DE7B0D /* MovikaTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovikaTapUITests.swift; sourceTree = "<group>"; };
 		04AF50E4285200FD00DE7B0D /* MovikaTapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovikaTapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04CE9EA428520BBF00A15A2B /* InteractiveModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveModuleBuilder.swift; sourceTree = "<group>"; };
+		04CE9EA628520BED00A15A2B /* InteractiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveViewController.swift; sourceTree = "<group>"; };
+		04CE9EA828520CBE00A15A2B /* InteractivePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePresenter.swift; sourceTree = "<group>"; };
+		04CE9EAA28520CD300A15A2B /* InteractiveModuleProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveModuleProtocols.swift; sourceTree = "<group>"; };
+		04CE9EAD285218B000A15A2B /* InteractiveVideoBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveVideoBlock.swift; sourceTree = "<group>"; };
+		04CE9EAF28522C5A00A15A2B /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		04CE9EB12852849F00A15A2B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		10283E802E48823B6AE01A50 /* Pods_MovikaTap_MovikaTapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovikaTap_MovikaTapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2706BE74A72168CB4D4E4DD6 /* Pods-MovikaTap-MovikaTapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTap-MovikaTapUITests.debug.xcconfig"; path = "Target Support Files/Pods-MovikaTap-MovikaTapUITests/Pods-MovikaTap-MovikaTapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37A4F9E65F16136D775D3436 /* Pods-MovikaTap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTap.debug.xcconfig"; path = "Target Support Files/Pods-MovikaTap/Pods-MovikaTap.debug.xcconfig"; sourceTree = "<group>"; };
+		6195CA3ADFEE0362ABA83109 /* Pods-MovikaTapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTapTests.release.xcconfig"; path = "Target Support Files/Pods-MovikaTapTests/Pods-MovikaTapTests.release.xcconfig"; sourceTree = "<group>"; };
+		81DA34FACD596C7847163BF1 /* Pods-MovikaTap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTap.release.xcconfig"; path = "Target Support Files/Pods-MovikaTap/Pods-MovikaTap.release.xcconfig"; sourceTree = "<group>"; };
+		B5D67F7EFF177219BCF4F4A4 /* Pods_MovikaTap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovikaTap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61C838656FA9C74A54F6999 /* Pods_MovikaTapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovikaTapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D473EDF8FABB793EB0B93DFE /* Pods-MovikaTapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTapTests.debug.xcconfig"; path = "Target Support Files/Pods-MovikaTapTests/Pods-MovikaTapTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465E375B1BF795F88FBACA8D /* Pods_MovikaTap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600F34D70AA4E38915137DAB /* Pods_MovikaTapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB9428FD923C832051CC0F5 /* Pods_MovikaTap_MovikaTapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,8 @@
 				04AF50D7285200FD00DE7B0D /* MovikaTapTests */,
 				04AF50E1285200FD00DE7B0D /* MovikaTapUITests */,
 				04AF50BC285200F900DE7B0D /* Products */,
+				6659BC53534D3956774B7EB5 /* Pods */,
+				9852795201881EB87C9469D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +128,14 @@
 		04AF50BD285200F900DE7B0D /* MovikaTap */ = {
 			isa = PBXGroup;
 			children = (
+				04CE9EAC285217B900A15A2B /* Models */,
+				04CE9EA2285208A500A15A2B /* InteractiveModule */,
 				04AF50BE285200F900DE7B0D /* AppDelegate.swift */,
 				04AF50C0285200F900DE7B0D /* SceneDelegate.swift */,
-				04AF50C2285200F900DE7B0D /* ViewController.swift */,
-				04AF50C4285200F900DE7B0D /* Main.storyboard */,
+				04CE9EAF28522C5A00A15A2B /* MockService.swift */,
 				04AF50CA285200FC00DE7B0D /* Assets.xcassets */,
 				04AF50CC285200FC00DE7B0D /* LaunchScreen.storyboard */,
+				04CE9EB12852849F00A15A2B /* Main.storyboard */,
 				04AF50CF285200FC00DE7B0D /* Info.plist */,
 				04AF50C7285200F900DE7B0D /* MovikaTap.xcdatamodeld */,
 			);
@@ -130,6 +159,48 @@
 			path = MovikaTapUITests;
 			sourceTree = "<group>";
 		};
+		04CE9EA2285208A500A15A2B /* InteractiveModule */ = {
+			isa = PBXGroup;
+			children = (
+				04CE9EAA28520CD300A15A2B /* InteractiveModuleProtocols.swift */,
+				04CE9EA428520BBF00A15A2B /* InteractiveModuleBuilder.swift */,
+				04CE9EA628520BED00A15A2B /* InteractiveViewController.swift */,
+				04CE9EA828520CBE00A15A2B /* InteractivePresenter.swift */,
+			);
+			path = InteractiveModule;
+			sourceTree = "<group>";
+		};
+		04CE9EAC285217B900A15A2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04CE9EAD285218B000A15A2B /* InteractiveVideoBlock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6659BC53534D3956774B7EB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A4F9E65F16136D775D3436 /* Pods-MovikaTap.debug.xcconfig */,
+				81DA34FACD596C7847163BF1 /* Pods-MovikaTap.release.xcconfig */,
+				2706BE74A72168CB4D4E4DD6 /* Pods-MovikaTap-MovikaTapUITests.debug.xcconfig */,
+				0177E3D427A632946D163C35 /* Pods-MovikaTap-MovikaTapUITests.release.xcconfig */,
+				D473EDF8FABB793EB0B93DFE /* Pods-MovikaTapTests.debug.xcconfig */,
+				6195CA3ADFEE0362ABA83109 /* Pods-MovikaTapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9852795201881EB87C9469D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5D67F7EFF177219BCF4F4A4 /* Pods_MovikaTap.framework */,
+				10283E802E48823B6AE01A50 /* Pods_MovikaTap_MovikaTapUITests.framework */,
+				C61C838656FA9C74A54F6999 /* Pods_MovikaTapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AF50E8285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTap" */;
 			buildPhases = (
+				AD978357391C5E91EB19CFE6 /* [CP] Check Pods Manifest.lock */,
 				04AF50B7285200F900DE7B0D /* Sources */,
 				04AF50B8285200F900DE7B0D /* Frameworks */,
 				04AF50B9285200F900DE7B0D /* Resources */,
+				A4CFB51B18FE38EBBA23B368 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AF50EB285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTapTests" */;
 			buildPhases = (
+				1EE6380902E234541883771A /* [CP] Check Pods Manifest.lock */,
 				04AF50D0285200FD00DE7B0D /* Sources */,
 				04AF50D1285200FD00DE7B0D /* Frameworks */,
 				04AF50D2285200FD00DE7B0D /* Resources */,
@@ -172,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AF50EE285200FD00DE7B0D /* Build configuration list for PBXNativeTarget "MovikaTapUITests" */;
 			buildPhases = (
+				05136940B1E70DAEB91D570A /* [CP] Check Pods Manifest.lock */,
 				04AF50DA285200FD00DE7B0D /* Sources */,
 				04AF50DB285200FD00DE7B0D /* Frameworks */,
 				04AF50DC285200FD00DE7B0D /* Resources */,
+				FCDF91E32DE92166B2A64AC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE9EB22852849F00A15A2B /* Main.storyboard in Resources */,
 				04AF50CE285200FC00DE7B0D /* LaunchScreen.storyboard in Resources */,
 				04AF50CB285200FC00DE7B0D /* Assets.xcassets in Resources */,
-				04AF50C6285200F900DE7B0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +332,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05136940B1E70DAEB91D570A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovikaTap-MovikaTapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EE6380902E234541883771A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovikaTapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4CFB51B18FE38EBBA23B368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovikaTap/Pods-MovikaTap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovikaTap/Pods-MovikaTap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovikaTap/Pods-MovikaTap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD978357391C5E91EB19CFE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovikaTap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCDF91E32DE92166B2A64AC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovikaTap-MovikaTapUITests/Pods-MovikaTap-MovikaTapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovikaTap-MovikaTapUITests/Pods-MovikaTap-MovikaTapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovikaTap-MovikaTapUITests/Pods-MovikaTap-MovikaTapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04AF50B7285200F900DE7B0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AF50C3285200F900DE7B0D /* ViewController.swift in Sources */,
+				04CE9EB028522C5A00A15A2B /* MockService.swift in Sources */,
 				04AF50BF285200F900DE7B0D /* AppDelegate.swift in Sources */,
 				04AF50C9285200F900DE7B0D /* MovikaTap.xcdatamodeld in Sources */,
+				04CE9EA728520BED00A15A2B /* InteractiveViewController.swift in Sources */,
+				04CE9EA528520BBF00A15A2B /* InteractiveModuleBuilder.swift in Sources */,
+				04CE9EAB28520CD300A15A2B /* InteractiveModuleProtocols.swift in Sources */,
+				04CE9EA928520CBE00A15A2B /* InteractivePresenter.swift in Sources */,
 				04AF50C1285200F900DE7B0D /* SceneDelegate.swift in Sources */,
+				04CE9EAE285218B000A15A2B /* InteractiveVideoBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04AF50C4285200F900DE7B0D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04AF50C5285200F900DE7B0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04AF50CC285200FC00DE7B0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,6 +612,7 @@
 		};
 		04AF50E9285200FD00DE7B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A4F9E65F16136D775D3436 /* Pods-MovikaTap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +624,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +642,7 @@
 		};
 		04AF50EA285200FD00DE7B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DA34FACD596C7847163BF1 /* Pods-MovikaTap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +654,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,6 +672,7 @@
 		};
 		04AF50EC285200FD00DE7B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D473EDF8FABB793EB0B93DFE /* Pods-MovikaTapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +693,7 @@
 		};
 		04AF50ED285200FD00DE7B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6195CA3ADFEE0362ABA83109 /* Pods-MovikaTapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +714,7 @@
 		};
 		04AF50EF285200FD00DE7B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2706BE74A72168CB4D4E4DD6 /* Pods-MovikaTap-MovikaTapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +733,7 @@
 		};
 		04AF50F0285200FD00DE7B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0177E3D427A632946D163C35 /* Pods-MovikaTap-MovikaTapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

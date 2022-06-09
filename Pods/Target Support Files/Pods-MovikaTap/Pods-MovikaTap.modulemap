@@ -1,0 +1,6 @@
+framework module Pods_MovikaTap {
+  umbrella header "Pods-MovikaTap-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -76,7 +76,7 @@ extension InteractiveViewController: InteractiveInput {
             make.top.equalTo(decisionView.safeAreaLayoutGuide).offset(10)
             make.bottom.equalTo(decisionView.safeAreaLayoutGuide).offset(10)
             make.left.equalTo(decisionView.safeAreaLayoutGuide).offset(10)
-            make.width.equalTo(8)
+            make.width.equalTo(4)
         }
         
         decisionView.addSubview(leftTimerLabel)
@@ -94,7 +94,7 @@ extension InteractiveViewController: InteractiveInput {
             make.top.equalTo(decisionView.safeAreaLayoutGuide).offset(10)
             make.bottom.equalTo(decisionView.safeAreaLayoutGuide).offset(10)
             make.right.equalTo(decisionView.safeAreaLayoutGuide).inset(10)
-            make.width.equalTo(8)
+            make.width.equalTo(4)
         }
         
         decisionView.addSubview(rightTimerLabel)

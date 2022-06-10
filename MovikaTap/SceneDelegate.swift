@@ -21,7 +21,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         
         let videoBlock = MockService().createVideoBlock()
-        
         let vc = InteractiveModuleBuilder().build(for: videoBlock)
         
         window?.rootViewController = vc

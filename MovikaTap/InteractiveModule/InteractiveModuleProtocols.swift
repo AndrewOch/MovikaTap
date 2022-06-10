@@ -14,13 +14,15 @@ protocol InteractiveInput {
     func startDecisionTimer()
     func updateTimerView(with time: Int)
     func replayVideo()
+    func showCredits()
 }
 
 protocol InteractiveOutput {
     
+    func getCurrentVideoTitle() -> String
     func getDecisions() -> [InteractiveVideoBlock]
-    func playVideo()
+    func startVideoTimer()
     func startDecisionTimer()
-    func selectVariant(title: String)
+    func selectVariant(id: Int)
 }
 

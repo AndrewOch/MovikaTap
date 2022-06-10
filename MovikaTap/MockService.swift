@@ -11,11 +11,10 @@ class MockService {
     
     func createVideoBlock() -> InteractiveVideoBlock {
         
-        let secondVideoBlock1 = InteractiveVideoBlock(title: "BAD END", videoDurationBeforeDecision: 3, decisionTime: 10, decisions: [])
-        let secondVideoBlock2 = InteractiveVideoBlock(title: "GOOD END", videoDurationBeforeDecision: 3, decisionTime: 10, decisions: [])
-    
-        let videoBlock = InteractiveVideoBlock(title: "BEGINING", videoDurationBeforeDecision: 3, decisionTime: 10, decisions: [secondVideoBlock1, secondVideoBlock2])
+        let badEnd = InteractiveVideoBlock(decisionTitle: "BAD END",videoTitle: "BadEnd", videoDurationBeforeDecision: 5, decisionTime: 0, decisions: [])
+        let goodEnd = InteractiveVideoBlock(decisionTitle: "GOOD END",videoTitle: "GoodEnd", videoDurationBeforeDecision: 5, decisionTime: 0, decisions: [])
         
+        let videoBlock = InteractiveVideoBlock(decisionTitle: "BEGINNING",videoTitle: "Beginning", videoDurationBeforeDecision: 5, decisionTime: 7, decisions: [badEnd, goodEnd])
         return videoBlock
     }
 }

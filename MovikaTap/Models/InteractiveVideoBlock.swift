@@ -9,8 +9,10 @@ import Foundation
 
 struct InteractiveVideoBlock {
     
-    var title: String
+    var decisionTitle: String
+    var videoTitle: String
     var videoDurationBeforeDecision: Int
     var decisionTime: Int
     var decisions: [InteractiveVideoBlock]
 }
+

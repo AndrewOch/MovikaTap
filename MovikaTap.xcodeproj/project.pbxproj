@@ -22,6 +22,9 @@
 		04CE9EAE285218B000A15A2B /* InteractiveVideoBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9EAD285218B000A15A2B /* InteractiveVideoBlock.swift */; };
 		04CE9EB028522C5A00A15A2B /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9EAF28522C5A00A15A2B /* MockService.swift */; };
 		04CE9EB22852849F00A15A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE9EB12852849F00A15A2B /* Main.storyboard */; };
+		04CE9EB7285360D800A15A2B /* BadEnd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04CE9EB4285360D700A15A2B /* BadEnd.mp4 */; };
+		04CE9EB8285360D800A15A2B /* Beginning.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04CE9EB5285360D800A15A2B /* Beginning.mp4 */; };
+		04CE9EB9285360D800A15A2B /* GoodEnd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04CE9EB6285360D800A15A2B /* GoodEnd.mp4 */; };
 		2AB9428FD923C832051CC0F5 /* Pods_MovikaTap_MovikaTapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10283E802E48823B6AE01A50 /* Pods_MovikaTap_MovikaTapUITests.framework */; };
 		465E375B1BF795F88FBACA8D /* Pods_MovikaTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67F7EFF177219BCF4F4A4 /* Pods_MovikaTap.framework */; };
 		600F34D70AA4E38915137DAB /* Pods_MovikaTapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61C838656FA9C74A54F6999 /* Pods_MovikaTapTests.framework */; };
@@ -65,6 +68,9 @@
 		04CE9EAD285218B000A15A2B /* InteractiveVideoBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveVideoBlock.swift; sourceTree = "<group>"; };
 		04CE9EAF28522C5A00A15A2B /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
 		04CE9EB12852849F00A15A2B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04CE9EB4285360D700A15A2B /* BadEnd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BadEnd.mp4; sourceTree = "<group>"; };
+		04CE9EB5285360D800A15A2B /* Beginning.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beginning.mp4; sourceTree = "<group>"; };
+		04CE9EB6285360D800A15A2B /* GoodEnd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GoodEnd.mp4; sourceTree = "<group>"; };
 		10283E802E48823B6AE01A50 /* Pods_MovikaTap_MovikaTapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovikaTap_MovikaTapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2706BE74A72168CB4D4E4DD6 /* Pods-MovikaTap-MovikaTapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTap-MovikaTapUITests.debug.xcconfig"; path = "Target Support Files/Pods-MovikaTap-MovikaTapUITests/Pods-MovikaTap-MovikaTapUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		37A4F9E65F16136D775D3436 /* Pods-MovikaTap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTap.debug.xcconfig"; path = "Target Support Files/Pods-MovikaTap/Pods-MovikaTap.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +134,7 @@
 		04AF50BD285200F900DE7B0D /* MovikaTap */ = {
 			isa = PBXGroup;
 			children = (
+				04CE9EB3285360A400A15A2B /* Videos */,
 				04CE9EAC285217B900A15A2B /* Models */,
 				04CE9EA2285208A500A15A2B /* InteractiveModule */,
 				04AF50BE285200F900DE7B0D /* AppDelegate.swift */,
@@ -176,6 +183,16 @@
 				04CE9EAD285218B000A15A2B /* InteractiveVideoBlock.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		04CE9EB3285360A400A15A2B /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				04CE9EB4285360D700A15A2B /* BadEnd.mp4 */,
+				04CE9EB5285360D800A15A2B /* Beginning.mp4 */,
+				04CE9EB6285360D800A15A2B /* GoodEnd.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 		6659BC53534D3956774B7EB5 /* Pods */ = {
@@ -312,7 +329,10 @@
 			files = (
 				04CE9EB22852849F00A15A2B /* Main.storyboard in Resources */,
 				04AF50CE285200FC00DE7B0D /* LaunchScreen.storyboard in Resources */,
+				04CE9EB9285360D800A15A2B /* GoodEnd.mp4 in Resources */,
 				04AF50CB285200FC00DE7B0D /* Assets.xcassets in Resources */,
+				04CE9EB8285360D800A15A2B /* Beginning.mp4 in Resources */,
+				04CE9EB7285360D800A15A2B /* BadEnd.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

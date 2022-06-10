@@ -22,12 +22,16 @@ class InteractivePresenter {
 }
 
 extension InteractivePresenter: InteractiveOutput {
+   
+    func getCurrentVideoTitle() -> String {
+        return videoBlock.videoTitle
+    }
     
     func getDecisions() -> [InteractiveVideoBlock] {
         return videoBlock.decisions
     }
     
-    func playVideo() {
+    func startVideoTimer() {
         timer = Timer.scheduledTimer(timeInterval: TimeInterval(videoBlock.videoDurationBeforeDecision),
                                          target: self,
                                          selector: #selector(updatePlayTimer),
@@ -45,9 +49,13 @@ extension InteractivePresenter: InteractiveOutput {
     }
     
     func startDecisionTimer() {
+        if (videoBlock.decisions.isEmpty) {
+            input?.showCredits()
+            return
+        }
         input?.updateTimerView(with: decisionTimeLeft)
         input?.animateProgressBars(duration: videoBlock.decisionTime)
-        input?.fadeInDecisionBackground()
+        input?.animateDecisionStarting()
         timer = Timer.scheduledTimer(timeInterval: 1.0,
                                          target: self,
                                          selector: #selector(updateDecisionTimer),
@@ -66,10 +74,8 @@ extension InteractivePresenter: InteractiveOutput {
         }
     }
     
-    func selectVariant(title: String) {
-        guard let videoBlock = videoBlock.decisions.first(where: {$0.title == title}) else {
-            return
-        }
+    func selectVariant(id: Int) {
+        let videoBlock = videoBlock.decisions[id]
         self.videoBlock = videoBlock
         decisionTimeLeft = videoBlock.decisionTime
         input?.replayVideo()

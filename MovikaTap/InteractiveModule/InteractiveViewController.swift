@@ -30,6 +30,7 @@ class InteractiveViewController: UIViewController {
     private var videoPlayer: AVPlayer = AVPlayer()
     private var videoPlayerLayer: AVPlayerLayer = AVPlayerLayer()
     
+    private var creditsView: UIView = UIView()
     private var creditsLabel: UILabel = UILabel()
     
     //MARK: - Lifecycle
@@ -111,7 +112,15 @@ extension InteractiveViewController: InteractiveInput {
             make.right.equalTo(rightTimerLabel).inset(20)
         }
         
-        view.addSubview(creditsLabel)
+        view.addSubview(creditsView)
+        creditsView.backgroundColor = .black
+        creditsView.alpha = 0.0
+        creditsView.isHidden = true
+        creditsView.snp.makeConstraints { make in
+            make.top.bottom.left.right.equalToSuperview()
+        }
+        
+        creditsView.addSubview(creditsLabel)
         creditsLabel.textColor = .yellow
         creditsLabel.font = UIFont.systemFont(ofSize: 32, weight: .medium)
         creditsLabel.attributedText = NSAttributedString(string: "/VIGVAMCEV MEDIA", attributes: [.kern: 6])
@@ -134,8 +143,9 @@ extension InteractiveViewController: InteractiveInput {
         videoPlayerLayer.removeFromSuperlayer()
         videoPlayerLayer = AVPlayerLayer(player: videoPlayer)
         videoPlayerLayer.frame = view.bounds
-        videoPlayerLayer.bounds.size.width = view.bounds.width
-
+        videoPlayerLayer.frame.size.width = view.frame.size.width + 4
+        videoPlayerLayer.frame.size.height = view.frame.size.height + 95
+        
         view.layer.insertSublayer(videoPlayerLayer, at: 0)
         videoPlayer.play()
     }
@@ -210,10 +220,7 @@ extension InteractiveViewController: InteractiveInput {
     }
     
     func showCredits() {
-        videoPlayerLayer.removeFromSuperlayer()
-        videoPlayer.pause()
-        creditsLabel.isHidden = false
-        creditAnimation()
+        creditsAnimation()
     }
 }
     
@@ -281,10 +288,20 @@ extension InteractiveViewController {
         }
     }
     
-    private func creditAnimation() {
+    private func creditsAnimation() {
+        
+        creditsView.isHidden = false
+        UIView.animate(withDuration: 2.0, delay: 0, animations: {
+            self.creditsView.alpha = 1.0
+        }) { _ in
+            self.videoPlayerLayer.removeFromSuperlayer()
+            self.videoPlayer.pause()
+        }
+        
+        creditsLabel.isHidden = false
         creditsLabel.center.y = creditsLabel.center.y + 300
         creditsLabel.alpha = 0.0
-        UIView.animate(withDuration: 1.5, delay: 0, animations: {
+        UIView.animate(withDuration: 1.5, delay: 2.0, animations: {
             self.creditsLabel.center.y = self.creditsLabel.center.y - 300
             self.creditsLabel.alpha = 1.0
         })
